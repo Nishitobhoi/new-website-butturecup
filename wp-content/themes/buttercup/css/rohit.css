@@ -1,0 +1,174 @@
+.about-who-are-we h1{font-size: 142px; letter-spacing: -3px; line-height: 28px; color: #000000; font-family: 'Switzer-Bold'; text-align: center; font-weight: 700; margin-bottom: 55px;}
+.about-who-are-we h1 span{padding-left: 20px;}
+.about-who-are-we p{font-size: 20px; letter-spacing: 0px; line-height: 30px; color: #000000; text-align: center; font-family: 'Switzer-Regular'; font-weight: 400; margin-bottom: 30px;}
+.about-who-are-we p span{display: block;}
+
+.about-us-why-are-boxes h2{font-size: 100px; font-family: 'Switzer-Bold'; font-weight: 700; line-height: 90px; letter-spacing: -1px;}
+.about-us-why-are-boxes .row{padding: 68px 0; position: relative;}
+.about-us-why-are-boxes .row:first-child{padding-top: 30px;}
+.about-us-why-are-boxes .row:last-child::after{display: none;}
+.about-us-why-are-boxes .row::after{content: ''; position: absolute; left: 0; right: 0; width: 200px; margin: auto; bottom: 0; height: 3px; background-color:  #BF6EFF;}
+.about-us-why-are-boxes h2 span{font-size: 32px; font-family: 'Switzer-Bold'; font-weight: 700; line-height: 34px; display: block; letter-spacing: -1px;}
+.about-us-why-are-boxes p{font-size: 17px; font-family: 'Switzer-Regular'; font-weight: 400; line-height: 30px; letter-spacing: 0px; margin-bottom: 22px;}
+.about-us-why-are-boxes ul{margin: 0; padding: 0;}
+.about-us-why-are-boxes ul li{margin: 0; padding: 0; padding-left: 20px; list-style: none; padding-bottom: 30px; font-size: 17px; font-family: 'Switzer-Regular'; font-weight: 400; line-height: 30px;}
+.about-us-why-are-boxes ul li::before{content: ''; position: absolute; left:0; top: 9px; border: 2px solid #000; border-radius: 50px; height: 10px; width: 10px; background: unset;}
+.about-us-why-are-boxes .projects h2 span{line-height: 49px;}
+
+.about-service{background-color: #5cc2ad;}
+.about-service h4{font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #fff; font-weight: 700; text-align: center; margin-bottom: 25px;}
+.about-service ul{margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;}
+.about-service ul li{text-transform: uppercase; list-style: none; margin: 2px; height: 100px; text-align: center; font-size: 20px; line-height: 24px; color: #000000; font-family: 'Switzer-Regular'; font-weight: 400; background-color: #fff; width: 318px;  padding: 0; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+.about-service ul li::before{display: none;}
+.about-service ul li span{display: block;}
+
+.about-product-category{background-color: #fff;}
+.about-product-category h4{font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #000000; font-weight: 700; text-align: center; margin-bottom: 25px;}
+.about-product-category ul{margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;}
+.about-product-category ul li{text-transform: uppercase; list-style: none; margin: 2px; height: 100px; text-align: center; font-size: 20px; line-height: 24px; color: #fff; font-family: 'Switzer-Regular'; font-weight: 400; background-color: #ea5209; width: 318px;  padding: 0; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+.about-product-category ul li::before{display: none;}
+.about-product-category ul li span{display: block;}
+
+.about-approach{background-color: #ffdd19;}
+.about-approach h4{font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #000000; font-weight: 700; margin-bottom: 30px; padding-top: 85px;}
+.about-approach h2{font-size: 60px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 80px;color: #000000; font-weight: 700; letter-spacing: -1px; padding-bottom: 65px;}
+
+.aboutus-resources h4{font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #000000; font-weight: 700; margin-bottom: 6px; padding-top: 55px;}
+.aboutus-resources p{font-size: 17px; letter-spacing: 0px; line-height: 30px; color: #000000; font-family: 'Switzer-Regular'; font-weight: 400;}
+.aboutus-resources ul{margin: 0; padding: 0; display: flex; flex-wrap: wrap;}
+.aboutus-resources ul li{margin: 0; padding: 0; list-style: none; font-size: 17px; letter-spacing: 0px; line-height: 30px; color: #000000; font-family: 'Switzer-Regular'; font-weight: 400; height: 130px; width: 370px; margin-right: 90px; border-bottom: 1px solid #000; display: flex; align-items: center;}
+.aboutus-resources ul li::before{display: none;}
+.aboutus-resources ul li:nth-child(3n+3){margin-right: 0;}
+.aboutus-resources ul li:hover{color: #BF6EFF; border-color: #BF6EFF;}
+.aboutus-resources ul li.border-none{border-bottom: 0;}
+
+.about-us-engage h4{font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #000000; font-weight: 700; margin-bottom: 45px;}
+.about-us-engage ul li::before{display: none;}
+/* .about-us-engage ul li{padding-left: 0;} */
+
+.about-founder{background: url('../images/Sneha-Vakta.png') no-repeat bottom center; margin-top: 65px;}
+.about-founder h6{font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #000000; font-weight: 700; margin-bottom: 6px;}
+.about-founder h2{font-size: 100px; font-family: 'Switzer-Bold'; letter-spacing: -1px;line-height: 90px;color: #000000; font-weight: 700;}
+.about-founder h2 span{display: block;}
+.about-founder p{font-size: 17px; letter-spacing: 0px; line-height: 30px; color: #000000; font-family: 'Switzer-Regular'; font-weight: 400; margin-bottom: 30px;}
+.about-founder .founder-img h4{font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #fff; font-weight: 700; margin-bottom: 0px; position: absolute; top: 370px; left: 0; right: 0; text-align: center;}
+.about-founder .founder-text{padding-left: 60px}
+
+.about-clients-problem h4{max-width: 472px; margin: auto; margin-bottom: 35px; border-bottom: 3px solid #BF6EFF; font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #000000; font-weight: 700; }
+.about-clients-problem h2{max-width: 450px; font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #000000; font-weight: 700; }
+.about-clients-problem p{font-size: 17px; letter-spacing: 0px; line-height: 30px; color: #000000; font-family: 'Switzer-Regular'; font-weight: 400;}
+.about-clients-problem .row{padding: 48px 0; position: relative;}
+.about-clients-problem .row::after{content: ''; position: absolute; bottom: 0; left: 15px; width: 450px; height: 2px; background-color: #000;}
+.about-clients-problem h6{font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #dddddd; font-weight: 700; font-size: 20px; margin: 0;}
+
+.aboutus-work-progress .top-text p{margin-bottom: 10px; font-size: 17px; letter-spacing: 0px; line-height: 30px; color: #000000; font-family: 'Switzer-Regular'; font-weight: 400; text-align: center;}
+.aboutus-work-progress .mail-text h4{ text-align: center; font-size: 17px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #000000; font-weight: 700; margin-top: 65px; margin-bottom: 0}
+.aboutus-work-progress .mail-text h2{text-align: center; font-size: 50px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 60px;color: #000000; font-weight: 700; margin-bottom: 8px;}
+.aboutus-work-progress .mail-text h5{font-size: 17px; letter-spacing: 0px; line-height: 30px; color: #000000; font-family: 'Switzer-Regular'; font-weight: 400; text-align: center; margin-bottom: 0;}
+.aboutus-work-progress .mail-text .request{margin-top: 0; margin-bottom: 80px;}
+.aboutus-work-progress .container{border-bottom: 1px solid #000;}
+
+.aboutus-metamorphosis{margin-bottom: 60px;}
+.aboutus-metamorphosis h4{font-size: 20px; font-family: 'Switzer-Bold'; letter-spacing: 0px;line-height: 30px;color: #000000; font-weight: 700; text-align: center;}
+.aboutus-metamorphosis p{font-size: 17px; letter-spacing: 0px; line-height: 30px; color: #000000; font-family: 'Switzer-Regular'; font-weight: 400; text-align: center;}
+.aboutus-metamorphosis h5{margin-top: 30px; font-size: 20px; letter-spacing: 0px; line-height: 30px; color: #000000; font-family: 'Switzer-Regular'; font-weight: 400; text-align: center;}
+.aboutus-metamorphosis h5 span{display: block;}
+.aboutus-metamorphosis .col-lg-3{display: flex; flex-direction: column; align-items: center; justify-content: end;}
+.padding-bottom{padding-bottom: 0 !important;}
+.padding-top{padding-top: 0 !important;}
+
+.request-quote .btn:focus{outline: none; box-shadow: none;}
+.request-quote .btn:hover{background-color: #BF6EFF;}
+
+
+
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+    .aboutus-resources ul li { width: 310px;}
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .about-who-are-we h1 {font-size: 115px;}
+    .about-service ul li, .about-product-category ul li { width: 49%;}
+    .aboutus-resources ul li { width: 270px; margin-right: 60px;}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .about-who-are-we h1 {font-size: 90px;}
+    .about-service ul li, .about-product-category ul li { width: 49%;}
+    .aboutus-resources ul li { width: 46%; margin-right: 50px;}
+    .aboutus-resources ul li:nth-child(2n+2){margin-right: 0;}
+    .aboutus-resources ul li:nth-child(3n+3) {margin-right: 50px;}
+    .aboutus-resources ul li:nth-child(6n+6) {margin-right: 0px;}
+    .aboutus-resources ul li.border-tab{border-bottom: 1px solid #000;}
+    .about-founder h2 { font-size: 51px; line-height: 50px;}
+    .about-clients-problem .row::after {width: 340px;}
+    .aboutus-metamorphosis .col-lg-3{text-align: center; margin-bottom: 30px;}
+}
+
+@media only screen and (min-width:640px) and (max-width:767px) {
+    .about-who-are-we h1 {font-size: 56px;}
+    .about-who-are-we h1 img{max-width: 85px;}
+    .about-us-why-are-boxes p, .about-founder p{text-align: left;}
+    .about-service ul li, .about-product-category ul li { width: 49%;}
+    .aboutus-resources ul li { width: 44%; margin-right: 50px;}
+    .aboutus-resources ul li:nth-child(2n+2){margin-right: 0;}
+    .aboutus-resources ul li:nth-child(3n+3) {margin-right: 50px;}
+    .aboutus-resources ul li:nth-child(6n+6) {margin-right: 0px;}
+    .aboutus-resources ul li.border-tab{border-bottom: 1px solid #000;}
+    .about-founder h2 { font-size: 51px; line-height: 50px;}
+    .about-clients-problem .row::after {width: 100%;}
+    .aboutus-metamorphosis .col-lg-3{text-align: center; margin-bottom: 30px;}
+    .about-approach h2 {font-size: 40px;line-height: 60px;padding-bottom: 0px;}
+    .about-founder .founder-img{text-align: center;}
+    .about-founder h6 { margin-top: 30px;}
+    .about-clients-problem p{text-align: left;}
+    .about-clients-problem h2 { max-width: 100%;}
+}
+
+@media only screen and (min-width:480px) and (max-width:639px) {
+    .about-who-are-we h1 {font-size: 56px;}
+    .about-who-are-we h1 img{max-width: 85px;}
+    .about-us-why-are-boxes p, .about-founder p{text-align: left;}
+    .about-service ul li, .about-product-category ul li { width: 49%;}
+    .aboutus-resources ul li { width: 44%; margin-right: 50px;}
+    .aboutus-resources ul li:nth-child(2n+2){margin-right: 0;}
+    .aboutus-resources ul li:nth-child(3n+3) {margin-right: 50px;}
+    .aboutus-resources ul li:nth-child(6n+6) {margin-right: 0px;}
+    .aboutus-resources ul li.border-tab{border-bottom: 1px solid #000;}
+    .about-founder h2 { font-size: 51px; line-height: 50px;}
+    .about-clients-problem .row::after {width: 100%;}
+    .aboutus-metamorphosis .col-lg-3{text-align: center; margin-bottom: 30px;}
+    .about-approach h2 {font-size: 40px;line-height: 60px;padding-bottom: 0px;}
+    .about-founder .founder-img{text-align: center;}
+    .about-founder h6 { margin-top: 30px;}
+    .about-clients-problem p{text-align: left;}
+    .about-clients-problem h2 { max-width: 100%;}
+    .about-us-why-are-boxes h2 { font-size: 70px;line-height: 70px;}
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+    .about-who-are-we h1 {font-size: 40px;}
+    .about-who-are-we h1 img{max-width: 70px;}
+    .about-us-why-are-boxes p, .about-founder p{text-align: left;}
+    .about-service ul li, .about-product-category ul li { width: 100%;}
+    .aboutus-resources ul li { width: 100%; margin-right: 0px;}
+    .aboutus-resources ul li:nth-child(2n+2){margin-right: 0;}
+    .aboutus-resources ul li:nth-child(3n+3) {margin-right: 00px;}
+    .aboutus-resources ul li:nth-child(6n+6) {margin-right: 0px;}
+    .aboutus-resources ul li.border-tab{border-bottom: 1px solid #000;}
+    .about-founder h2 { font-size: 51px; line-height: 50px;}
+    .about-clients-problem .row::after {width: 90%;}
+    .aboutus-metamorphosis .col-lg-3{text-align: center; margin-bottom: 30px;}
+    .about-approach h2 {font-size: 30px;line-height: 40px;padding-bottom: 0px;}
+    .about-founder .founder-img{text-align: center;}
+    .about-founder h6 { margin-top: 30px;}
+    .about-clients-problem p{text-align: left;}
+    .about-clients-problem h2 { max-width: 100%;}
+    .about-us-why-are-boxes h2 { font-size: 70px;line-height: 70px;}
+    .about-who-are-we p{text-align: left;}
+    .about-approach h4 {text-align: left;padding-top: 0;}
+   .aboutus-resources ul li.border-mob{border-bottom: 1px solid #000;}
+   .about-founder .founder-text {padding-left: 15px;}
+   .about-founder .founder-img h4 {top: 290px;}
+   .aboutus-work-progress .mail-text h2 {font-size: 30px;line-height: 40px;}
+}

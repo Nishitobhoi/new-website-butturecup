@@ -1,0 +1,8 @@
+RewriteEngine On
+# Make index.php appear as index.html
+RewriteRule ^index\.html$ index.php [L]
+
+# Hide .php extension for all files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]

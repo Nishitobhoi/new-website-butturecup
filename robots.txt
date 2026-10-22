@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://buttercup.in/sitemap_index.xml
+Sitemap: https://buttercup.in/image-sitemap.xml

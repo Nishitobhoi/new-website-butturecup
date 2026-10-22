@@ -1,0 +1,10 @@
+# .htaccess file - URL rewriting rules
+RewriteEngine On
+
+# Redirect all requests for file.html to our PHP processor
+RewriteRule ^file\.html$ processor.php [L]
+
+# Optional: Hide .php extension for other files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]

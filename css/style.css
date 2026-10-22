@@ -1,0 +1,9 @@
+@import "bootstrap.min.css";
+@import "fonts.css";
+@import "animate.css"; 
+@import "full-menu.css"; /* Designer Only */
+@import "main.css"; /* Designer Only */
+@import "jquery.bxslider.css"; /* Designer Only */
+/*Developer CSS*/
+
+@import "responsive.css"; /* Designer Only */
